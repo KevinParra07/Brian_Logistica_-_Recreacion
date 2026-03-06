@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brian Logística y Recreación - ¡Diversión Sin Límites!</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Globos decorativos -->
+    <div class="balloons-container">
+        <div class="balloon balloon-1">🎈</div>
+        <div class="balloon balloon-2">🎈</div>
+        <div class="balloon balloon-3">🎈</div>
+        <div class="balloon balloon-4">🎈</div>
+        <div class="balloon balloon-5">🎈</div>
+    </div>
+
+    <!-- Header con navegación -->
+    <header>
+        <div class="header-container">
+            <div class="logo-section">
+                <img src="Logo1.jpg" alt="Brian Logística y Recreación Logo" class="header-logo">
+                <div class="header-text">
+                    <h1>Brian Logística y Recreación</h1>
+                    <p class="tagline">"Servicios con calidad, lo mejor con los mejores"</p>
+                </div>
+            </div>
+            <nav>
+                <a href="#inicio" class="nav-btn">Inicio</a>
+                <a href="#servicios" class="nav-btn">Servicios</a>
+                <a href="#eventos" class="nav-btn">Eventos</a>
+                <a href="#productos" class="nav-btn">Productos</a>
+                <a href="#contacto" class="nav-btn">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero-section">
+        <div class="hero-content">
+            <h2>¡Creamos Momentos Inolvidables! 🎉</h2>
+            <p>Expertos en logística y recreación infantil con más de 10 años de experiencia creando sonrisas</p>
+            <div class="hero-buttons">
+                <a href="https://wa.me/c/573217710601" target="_blank" class="btn-primary">Cotizar Ahora</a>
+                <a href="#servicios" class="btn-secondary">Ver Servicios</a>
+            </div>
+        </div>
+        <div class="hero-stats">
+            <div class="stat-item">
+                <span class="stat-number">10+</span>
+                <span class="stat-label">Años de Experiencia</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">100+</span>
+                <span class="stat-label">Eventos Realizados</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">100%</span>
+                <span class="stat-label">Clientes Felices</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Quiénes Somos -->
+    <section id="quienes-somos" class="about-section">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="HoraLoca.png" alt="Brian Logística y Recreación" class="about-img">
+            </div>
+            <div class="about-content">
+                <h2 class="about-title">Quiénes Somos</h2>
+                <p class="about-description">El corazón detrás de cada sonrisa. En Brian Logística y Recreación, no solo organizamos eventos; construimos momentos que se quedan grabados en la memoria. Nacimos con la pasión de llevar alegría a cada rincón, combinando el arte de la recreación con la precisión de la logística. Somos un equipo joven y dinámico, apasionado por el entretenimiento. Entendemos que cada fiesta es única, por eso nos esforzamos en ofrecer un servicio integral donde la calidad del sonido, la magia de nuestros personajes y la seguridad de nuestros inflables se unen para que tú, como anfitrión, solo tengas que preocuparte por una cosa: ¡disfrutar!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Servicios -->
+    <section id="servicios" class="services-section">
+        <div class="section-header">
+            <h2 class="section-title">Nuestros Servicios</h2>
+            <p class="section-subtitle">Todo lo que necesitas para una fiesta increíble</p>
+        </div>
+        
+        <div class="services-slider-container">
+            <button class="slider-btn prev-btn" id="servicesPrevBtn">&#10094;</button>
+            <div class="services-slider" id="servicesSlider">
+                <!-- Show de Hora Loca -->
+                <div class="service-card">
+                    <img src="show.jpg" alt="Show de Hora Loca" class="service-image">
+                    <h3>Show de Hora Loca</h3>
+                    <p>¡El momento más divertido de la fiesta! Con disfraces, música y mucha energía.</p>
+                    <ul class="service-features">
+                        <li>✅ Disfraces para todos</li>
+                        <li>✅ Música especial</li>
+                        <li>✅ Animadores profesionales</li>
+                        <li>✅ Sorpresas y regalos</li>
+                    </ul>
+                    <a href="https://wa.me/c/573217710601" target="_blank" class="btn-service">Cotizar</a>
+                </div>
+
+                <!-- Animación de Eventos -->
+                <div class="service-card featured">
+                    <div class="featured-badge">Más Popular</div>
+                    <img src="carita.png" alt="Animación de Eventos" class="service-image">
+                    <h3>Animación de Eventos</h3>
+                    <p>Animadores profesionales que harán de tu evento una experiencia única.</p>
+                    <ul class="service-features">
+                        <li>✅ Juegos dirigidos</li>
+                        <li>✅ Pintacaritas</li>
+                        <li>✅ Globoflexia</li>
+                        <li>✅ Premios y sorpresas</li>
+                    </ul>
+                    <a href="https://wa.me/c/573217710601" target="_blank" class="btn-service">Cotizar</a>
+                </div>
+
+                <!-- Sonido Profesional -->
+                <div class="service-card">
+                    <img src="sonido.avif" alt="Sonido Profesional" class="service-image">
+                    <h3>Sonido Profesional</h3>
+                    <p>Equipo de sonido de última generación para que la música sea perfecta.</p>
+                    <ul class="service-features">
+                        <li>✅ Equipo de alta calidad</li>
+                        <li>✅ DJ profesional</li>
+                        <li>✅ Iluminación especial</li>
+                        <li>✅ Playlist personalizada</li>
+                    </ul>
+                    <a href="https://wa.me/c/573217710601" target="_blank" class="btn-service">Cotizar</a>
+                </div>
+
+                <!-- Producción de Eventos -->
+                <div class="service-card">
+                    <img src="produccion.avif" alt="Producción de Eventos" class="service-image">
+                    <h3>Producción de Eventos</h3>
+                    <p>Nos encargamos de todo para que tú solo disfrutes.</p>
+                    <ul class="service-features">
+                        <li>✅ Planificación completa</li>
+                        <li>✅ Coordinación del evento</li>
+                        <li>✅ Personal capacitado</li>
+                        <li>✅ Solución de imprevistos</li>
+                    </ul>
+                    <a href="https://wa.me/c/573217710601" target="_blank" class="btn-service">Cotizar</a>
+                </div>
+
+                <!-- Inflables y Castillos -->
+                <div class="service-card featured">
+                    <div class="featured-badge">Recomendado</div>
+                    <img src="castillo.jpg" alt="Inflables y Castillos" class="service-image">
+                    <h3>Inflables y Castillos</h3>
+                    <p>Castillos e inflables gigantes para que los niños se diviertan.</p>
+                    <ul class="service-features">
+                        <li>✅ Inflables de varios tamaños</li>
+                        <li>✅ Castillos temáticos</li>
+                        <li>✅ Máxima seguridad</li>
+                        <li>✅ Personal supervisando</li>
+                    </ul>
+                    <a href="https://wa.me/c/573217710601" target="_blank" class="btn-service">Cotizar</a>
+                </div>
+
+                <!-- Trampolín -->
+                <div class="service-card">
+                    <img src="trampolin.avif" alt="Trampolín" class="service-image">
+                    <h3>Trampolín</h3>
+                    <p>Trampolines profesionales para saltar hasta tocar el cielo.</p>
+                    <ul class="service-features">
+                        <li>✅ Trampolines seguros</li>
+                        <li>✅ Redes de protección</li>
+                        <li>✅ Varios tamaños</li>
+                        <li>✅ Supervisión constante</li>
+                    </ul>
+                    <a href="https://wa.me/c/573217710601" target="_blank" class="btn-service">Cotizar</a>
+                </div>
+
+                <!-- Activación de Marca -->
+                <div class="service-card">
+                    <img src="activacion.png" alt="Activación de Marca" class="service-image">
+                    <h3>Activación de Marca</h3>
+                    <p>Estrategias recreativas para promocionar tu marca en eventos.</p>
+                    <ul class="service-features">
+                        <li>✅ Estrategias creativas</li>
+                        <li>✅ Branding personalizado</li>
+                        <li>✅ Interacción con el público</li>
+                        <li>✅ Reporte de resultados</li>
+                    </ul>
+                    <a href="https://wa.me/c/573217710601" target="_blank" class="btn-service">Cotizar</a>
+                </div>
+            </div>
+            <button class="slider-btn next-btn" id="servicesNextBtn">&#10095;</button>
+        </div>
+    </section>
+
+    <!-- Sección Nuestros Eventos -->
+    <section id="eventos" class="events-section">
+        <div class="section-header">
+            <h2 class="section-title">Nuestros Eventos</h2>
+            <p class="section-subtitle">Momentos reales que hemos creado para nuestros clientes</p>
+        </div>
+        
+        <div class="events-slider-container">
+            <button class="slider-btn prev-btn" id="prevBtn">&#10094;</button>
+            <div class="events-slider" id="eventsSlider">
+                <div class="event-item">
+                    <img src="brinca.jpeg" alt="Evento Brinca" class="event-image">
+                    <div class="event-overlay">
+                        <h3>Evento Brinca</h3>
+                        <p>Diversión garantizada</p>
+                    </div>
+                </div>
+                <div class="event-item">
+                    <img src="tiburon.jpeg" alt="Inflable Tiburón" class="event-image">
+                    <div class="event-overlay">
+                        <h3>Inflable Animal</h3>
+                        <p>¡Aventura marina!</p>
+                    </div>
+                </div>
+                <div class="event-item">
+                    <img src="personaje1.jpeg" alt="Personaje Evento 1" class="event-image">
+                    <div class="event-overlay">
+                        <h3>Personajes</h3>
+                        <p>Animación infantil</p>
+                    </div>
+                </div>
+                <div class="event-item">
+                    <img src="inflable 1.jpeg" alt="Inflable Evento" class="event-image">
+                    <div class="event-overlay">
+                        <h3>Inflables</h3>
+                        <p>Diversión sin límites</p>
+                    </div>
+                </div>
+                <div class="event-item">
+                    <img src="personaje2.jpeg" alt="Personaje Evento 2" class="event-image">
+                    <div class="event-overlay">
+                        <h3>Personajes</h3>
+                        <p>Shows en vivo</p>
+                    </div>
+                </div>
+                <div class="event-item">
+                    <img src="personaje4.jpeg" alt="Personaje Evento 4" class="event-image">
+                    <div class="event-overlay">
+                        <h3>Personajes</h3>
+                        <p>Animación divertida</p>
+                    </div>
+                </div>
+                <div class="event-item">
+                    <img src="mario1.jpeg" alt="Evento Mario" class="event-image">
+                    <div class="event-overlay">
+                        <h3>Evento Temático</h3>
+                        <p>Personajes favoritos</p>
+                    </div>
+                </div>
+                <div class="event-item">
+                    <img src="inflableAvengers.jpeg" alt="Inflable Avengers" class="event-image">
+                    <div class="event-overlay">
+                        <h3>Avengers</h3>
+                        <p>Superhéroes en acción</p>
+                    </div>
+                </div>
+                <div class="event-item">
+                    <img src="personaje3.jpeg" alt="Personaje Evento 3" class="event-image">
+                    <div class="event-overlay">
+                        <h3>Personajes</h3>
+                        <p>Animación especial</p>
+                    </div>
+                </div>
+                <div class="event-item">
+                    <img src="inflable3.jpeg" alt="Inflable Evento 3" class="event-image">
+                    <div class="event-overlay">
+                        <h3>Inflables</h3>
+                        <p>Salta y diviértete</p>
+                    </div>
+                </div>
+                <div class="event-item">
+                    <img src="personaje6.jpeg" alt="Personaje Evento 6" class="event-image">
+                    <div class="event-overlay">
+                        <h3>Personajes</h3>
+                        <p>Momentos mágicos</p>
+                    </div>
+                </div>
+                <div class="event-item">
+                    <img src="pintura1.jpeg" alt="Pintura Evento" class="event-image">
+                    <div class="event-overlay">
+                        <h3>Pintura</h3>
+                        <p>Arte y diversión</p>
+                    </div>
+                </div>
+                <div class="event-item">
+                    <img src="personaje7.jpeg" alt="Personaje Evento 7" class="event-image">
+                    <div class="event-overlay">
+                        <h3>Personajes</h3>
+                        <p>Sonrisas infinitas</p>
+                    </div>
+                </div>
+            </div>
+            <button class="slider-btn next-btn" id="nextBtn">&#10095;</button>
+        </div>
+    </section>
+
+    <!-- Sección Productos -->
+    <section id="productos" class="products-section">
+        <div class="section-header">
+            <h2 class="section-title">Nuestros Productos</h2>
+            <p class="section-subtitle">Paquetes diseñados para hacer tu fiesta más especial</p>
+        </div>
+        <div id="productos-container" class="products-grid">
+            <!-- Los productos se cargarán aquí dinámicamente -->
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="contact-section">
+        <div class="section-header">
+            <h2 class="section-title">Contáctanos</h2>
+            <p class="section-subtitle">¡Estamos listos para hacer de tu evento algo mágico!</p>
+        </div>
+        
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span class="contact-icon">📱</span>
+                    <div>
+                        <h4>Teléfono</h4>
+                        <p>+57 300 000 0000</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">📧</span>
+                    <div>
+                        <h4>Email</h4>
+                        <p>info@brianlogisticayrecreacion.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">📍</span>
+                    <div>
+                        <h4>Dirección</h4>
+                        <p>Calle Principal #123, Ciudad</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">⏰</span>
+                    <div>
+                        <h4>Horario</h4>
+                        <p>Lunes a Sábado: 8:00 AM - 6:00 PM</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <h3>¡Envíanos un Mensaje! 💌</h3>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="tu@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" id="telefono" name="telefono" placeholder="Tu número de teléfono">
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" required placeholder="Cuéntanos sobre tu evento..."></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span class="footer-icon">🎪</span>
+                <h3>Brian Logística y Recreación</h3>
+            </div>
+            <p class="footer-tagline">"Servicios con calidad, lo mejor con los mejores"</p>
+            <div class="footer-social">
+                <a href="#" class="social-link">Facebook</a>
+                <a href="#" class="social-link">Instagram</a>
+                <a href="#" class="social-link">Twitter</a>
+            </div>
+            <p class="copyright">&copy; 2026 Brian Logística y Recreación. Todos los derechos reservados.</p>
+            <p style="margin-top: 1rem;">
+                <a href="admin.html" style="color: var(--gris); font-size: 0.8rem; text-decoration: none;">🔐 Acceso Administrador</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
